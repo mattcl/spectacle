@@ -146,7 +146,7 @@ const CodePane = React.forwardRef(
        * default theme with no valid values.
        */
       const {
-        size: { width = 1366 },
+        size: { width = "100%" },
         space = [0, 0, 0],
         fontSizes: { monospace = '20px' }
       } = theme;
